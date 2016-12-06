@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<%= render "application/header" %>
+
+<body class="<%= controller_name %>-<%= controller.action_name %>">
+
+<div class="sidebar">
+  <%= render "application/navbar" %>
+
+</div>
+<div class="application-wrapper <%= controller_name %>-<%= controller.action_name %>">
+
+  <%= yield %>
+
+</div>
+
+<div class="space-20"></div>
+</body>
+</html>
+
+
+

@@ -1,0 +1,43 @@
+<div class="<%= active_item_in_sidebar_if("home/index") %> row sidebar-menu p-x-10">
+  <div class="col-xs-1"></div>
+  <div class="col-xs-2"><%= image_tag("icons/becon.png", size: "30x30") %></div>
+  <div class="col-xs-8 m-t-5"><%= link_to("Beacons", root_path)%> </div>
+  <div class="col-xs-1"></div>
+</div>
+<div class="<%= active_item_in_sidebar_if(home_nearables_path) %> row sidebar-menu p-x-10">
+  <div class="col-xs-1"></div>
+  <div class="col-xs-2"><%= image_tag("icons/gem.png", size: "30x30") %></div>
+  <div class="col-xs-8 m-t-5">
+    <%= link_to("Nearables", home_nearables_path)%> </div>
+  <div class="col-xs-1"></div>
+</div>
+<div class="row sidebar-menu p-x-10">
+  <div class="col-xs-1"></div>
+  <div class="col-xs-2"><%= image_tag("icons/becon.png", size: "30x30") %></div>
+  <div class="col-xs-8 m-t-5">Apps</div>
+  <div class="col-xs-1"></div>
+</div>
+<div class="row sidebar-menu p-x-10">
+  <div class="col-xs-1"></div>
+  <div class="col-xs-2"><%= image_tag("icons/locate.png", size: "30x30") %></div>
+  <div class="col-xs-8 m-t-5">Locations</div>
+  <div class="col-xs-1"></div>
+</div>
+<div class="row sidebar-menu p-x-10">
+  <div class="col-xs-1"></div>
+  <div class="col-xs-2"><%= image_tag("icons/new.png", size: "30x30") %></div>
+  <div class="col-xs-8 m-t-5">Here & New</div>
+  <div class="col-xs-1"></div>
+</div>
+<div class="row sidebar-menu p-x-10">
+  <div class="col-xs-1"></div>
+  <div class="col-xs-2"><%= image_tag("icons/analytics.png", size: "30x30") %></div>
+  <div class="col-xs-8 m-t-5">Analytics</div>
+  <div class="col-xs-1"></div>
+</div>
+<div class="row sidebar-menu p-x-10">
+  <div class="col-xs-1"></div>
+  <div class="col-xs-2"><%= image_tag("icons/profile.png", size: "30x30") %></div>
+  <div class="col-xs-8 m-t-5">Profile</div>
+  <div class="col-xs-1"></div>
+</div>

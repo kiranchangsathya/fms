@@ -1,0 +1,96 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *
+ *
+ *
+ * Others
+ *
+ */
+
+@import "bootstrap-sprockets"
+@import "bootstrap"
+
+.bg-light-grey
+  background: #EDEDED
+
+.pos-absolute
+  position: absolute
+
+body, html
+  height: 100%
+
+body
+  margin: 0px
+  padding: 10px
+  font-family: Verdana, Georgia, Serif
+  background-color: #F3F3F3
+
+.sidebar
+  background-color: #363739
+  float: left
+  width: 260px
+  padding: 20px
+  margin: 0px
+  border-radius: 5px
+  height: 100%
+
+.application-wrapper
+  padding: 20px
+  margin: 10px 10px 10px 280px
+
+.p-x-10
+  padding-top: 10px !important
+  padding-bottom: 10px !important
+
+.sidebar-menu
+  color: white
+  a
+    color: white
+  a:hover
+    text-decoration: none
+
+.sidebar-menu-active
+  background-color: #3C3D3F
+
+.white-bg
+  background-color: #FFFFFF
+
+.m-t-5
+  margin-top: 5px
+
+.box-shadow
+  box-shadow: 1px 1px 1px #888888
+
+.inline
+  display: inline-block
+
+.pad-25
+  padding: 25px
+
+.grid
+  overflow: hidden
+  padding: 0.5em 0 0 0.5em
+  max-width: 56em
+  margin: 0 auto 20px auto
+  list-style: none
+
+.grid li
+  padding: 0 0.5em 0.5em 0
+
+@media all and (min-width: 500px)
+.grid li
+  float: left
+  width: 33.3333333%
+
+.grid li.title
+  width: 100%
